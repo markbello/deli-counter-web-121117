@@ -1,1 +1,10 @@
-# Write your code here.
+current_line = []
+
+def line
+  current_line.count == 0 ? puts "The line is currently empty."
+    : phrase = "The line is currently:"
+      current_line.each_with_index{|name, i|
+        phrase.concat(" #{i+1}. #{name}")
+      }
+      puts phrase
+end
